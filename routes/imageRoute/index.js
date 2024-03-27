@@ -11,9 +11,9 @@ const storage = multer.diskStorage({
   },
 });
 
-const uplod = multer({ storage: storage });
+const upload = multer({ storage: storage });
 router.post("/image", upload.single("file"), async (req, res) => {
-  res.json({ url: ~`http://localhost:4000/${req.file.filename}` });
+  res.json({ url: `http://localhost:4000/${req.file.filename}` });
 });
 
 export default router;
