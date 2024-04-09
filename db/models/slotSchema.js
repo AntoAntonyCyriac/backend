@@ -17,6 +17,6 @@ const slotSchema = Schema({
   },
 });
 
-const Slot = model(Slot, slotSchema);
+const Slot = model("Slot", slotSchema);
 
 export default Slot;

@@ -27,6 +27,6 @@ const pharmacySchema = Schema({
   },
 });
 
-const Pharmacy = model(Pharmacy, pharmacySchema);
+const Pharmacy = model("Pharmacy", pharmacySchema);
 
 export default Pharmacy;

@@ -24,6 +24,6 @@ const prescriptionSchema = Schema({
   ],
 });
 
-const Prescription = model(Prescription, prescriptionSchema);
+const Prescription = model("Prescription", prescriptionSchema);
 
 export default Prescription;
